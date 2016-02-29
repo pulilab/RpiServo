@@ -21,7 +21,7 @@ class Servo(object):
         self.current_degree = 0
 
         
-    def setDegree(self, angle, ssec=0.5):
+    def setDegree(self, angle, ssec=0):
 
         if angle >= self.degree_range:
             angle = self.degree_range-1
